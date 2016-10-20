@@ -1,6 +1,10 @@
 import React, { Component, PropTypes } from 'react';
 
 import {
+  registerComponent,
+} from 'react-native-playground';
+
+import {
 Alert,
 AppRegistry,
   StatusBar,
@@ -15,8 +19,6 @@ AppRegistry,
   ListView,
   Image
 } from 'react-native';
-
-
 
 //make up data for mcdonalds in chicago
 
@@ -475,4 +477,4 @@ marginLeft: 15,
   }
 
 });
-AppRegistry.registerComponent('ListviewDemo', () => App);
+registerComponent(App);
