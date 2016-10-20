@@ -1,0 +1,34 @@
+
+Description of Folder:
+
+1)  The structure of the directory listviewdemo and many of the files are a fucntion of using the react native CLI.  Using the this CLI and 'init'
+the directory will be produced.  Namely,
+
+react-native init listviewdemo
+
+
+2) We did not add directories or files beyond the files and folders created by react.  The two files:
+
+        index.android.js
+
+        index.ios.js
+
+
+are the entry point for the app and are identical.
+
+
+3)  To build for ios and android, follow instructions https://facebook.github.io/react-native/docs/getting-started.html#content and ultimately you will run:
+
+
+react-native run-ios
+
+or
+
+react-native run-android
+
+
+
+4.  I have also included a version of the app that you can run on the react-web server.  The contents of the file index.io.js in the directiory /build_online
+can be used on the react playground here:
+
+https://rnplay.org/app
